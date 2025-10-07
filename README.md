@@ -6,6 +6,7 @@ This repository contains a Jupyter Notebook that solves a Tutor-Student Assignme
 
 This README explains how to set up the environment and run the notebook.
 
+If you do not need to run the code, just click the .ipynb file to see the code and output directly on github.
 ---
 
 ## Files in this project
