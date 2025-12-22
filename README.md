@@ -21,7 +21,7 @@ If you do not need to run the code, just click the .ipynb file to see the code a
 - `test_presentation.pptx` — ppt presentation summarizing the approach and results.
 ---
 
-## Recommended setup (Windows example)
+## Recommended setup (Windows example - without downloading IBM ILOG CPLEX Optimization Studio free edition)
 
 1. Clone the repo and `cd` into it (or just download the files and skip this step). Note that you might want to change the working directory using cd in the command line to where you would like to save the file.
 
@@ -43,18 +43,20 @@ python -m venv .venv
 ```
 
 
-3. Install dependencies.
-
-Install with:
+3. Install dependencies. 22-12-2025 note: requirements installed this way does not work for newer versions of python!! I downloaded python 3.10.11 and made a 3.10 environment using the command
+   ```bash
+   py -3.10 -m venv cplex-env
+   ```
+Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Or install the core packages manually:
+Or install the core packages manually (not recommended):
 
 ```bash
-pip install pandas numpy openpyxl jupyter ipython docplex
+pip install pandas numpy openpyxl jupyter ipython docplex cplex
 ```
 4. Open the notebook technical_test_solution.ipynb (i am using VSCode).
 
