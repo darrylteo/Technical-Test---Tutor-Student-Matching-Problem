@@ -45,7 +45,7 @@ python -m venv .venv
 
 3. Install dependencies. 22-12-2025 note: requirements installed this way does not work for newer versions of python!! I downloaded python 3.10.11 and made a 3.10 environment using the command
    ```bash
-   py -3.10 -m venv cplex-env
+   py -3.10 -m venv .venv
    ```
 Install dependencies with:
 
